@@ -1,0 +1,29 @@
+name: zoiparrilla
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.0.0
+  http: ^0.13.5
+  flutter_local_notifications: ^14.0.0
+  network_info_plus: ^3.0.0
+  flutter_network_connectivity: ^0.0.1
+  printing: ^5.6.0 # Asegúrate de usar la última versión
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/zoi.jpg
